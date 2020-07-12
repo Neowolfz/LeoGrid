@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HamXam.MainPage">
+
+    
+        <Grid BackgroundColor="PeachPuff" RowSpacing="0" Padding="20,20">
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="100" />
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+
+
+        </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+            
+         <Label Text="Hamburguesas" HorizontalTextAlignment="Center" Padding="30" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="Beige" HorizontalOptions="FillAndExpand" />
+            
+        <Label Text="Hamburguesa" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="Beige" Padding="10" />
+
+        <Entry BackgroundColor="Beige" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="Fill"/>
+
+        <Label Text="Ingredientes" BackgroundColor="Beige" Grid.Row="3" Grid.Column="0" Padding="10" Grid.ColumnSpan="3" />
+
+        <Entry BackgroundColor="Beige" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Fill" />
+
+    </Grid>
+        
+        
+</ContentPage>
